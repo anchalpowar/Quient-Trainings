@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Testimonials</title>
+        <link rel="stylesheet" href="testimonial.css">
+    </head>
+    <body>
+        <div class="header">
+            <img width="100" height="90" src="log.jpeg" >
+            <h1>Quient Trainings</h1>
+            <p>Get placed and build your future.</p>
+            <div id="one">
+                <p><em>Quient training is an enthusiastic group intended to train
+                students in colleges that are denied the privilege of Placement
+                training.<br>
+                A group of Enthusiasts now have a vision of training
+                students that don’t have access to placement training that can
+                help them get placed, and thereby build their future.</em> </p>
+            </div>
+          </div>
+          
+        <nav>
+            <ul class="topnav">
+                <li><a href="site.html">Home</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About us </a></li>
+                <li><a href="index.php">Contact us</a></li>
+              </ul>
+        </nav>
+        <h1>Testimonials</h1>
+
+        <div class="container">
+            <img src="bandmember.jpg" alt="Avatar" style="width:90px">
+            <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+            <p>Excellent training.</p>
+          </div>
+          
+          <div class="container">
+            <img src="avatar_g2.jpg" alt="Avatar" style="width:90px">
+            <p><span >Rebecca Flex.</span> CEO at Company.</p>
+            <p>Really good , step by step answer is explained.</p>
+          </div>
+
+          <div class="container">
+            <img src="bandmember.jpg" alt="Avatar" style="width:90px">
+            <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+            <p>Very nice Trainings .</p>
+          </div>
+          
+          <div class="container">
+            <img src="avatar_g2.jpg" alt="Avatar" style="width:90px">
+            <p><span >Rebecca Flex.</span> CEO at Company.</p>
+            <p>No one is better than John Doe.</p>
+          </div>
+
+          <div class="slideshow-container">
+
+            
+            <div class="mySlides">
+              <q>Overall SCCM training was good. Trainer is knowledgeable and we now have 
+                  recorded sessions available too.</q>
+              <p class="author">- John Keats</p>
+            </div>
+          
+            <div class="mySlides">
+              <q> Trainer has provided some good real time 
+                examples related to IT environment which helped me too..</q>
+              <p class="author">- Ernest Hemingway</p>
+            </div>
+          
+            <div class="mySlides">
+              <q>Training was excellent with good interaction. Knowledge sharing is good. 
+                  Recording facility is excellent for revising. Course was practically and informative. .</q>
+              <p class="author">- Thomas A. Edison</p>
+            </div>
+          
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          
+          
+          <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+
+          <a href="https://api.whatsapp.com/send?phone=+91number"><img  id="whatsup" width="80" 
+            height="80" src="what.png" ></a>
+            <div class="footer">
+              <p>Copyright&copy; 2021 All rights reserved </p>
+            </div>
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    </body>
+</html>

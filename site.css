@@ -1,0 +1,184 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    list-style-type: none;
+    padding-left: 60%;
+   
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  p{
+      font-size: 20px;
+
+  }
+  ul li{
+      font-size: 20px;
+  }
+  #obj{
+      display: flex;
+      background-color: lightgrey;
+      
+  }
+ 
+  .header {
+    padding: 70px;
+    text-align: center;
+    background: #1abc9c; 
+    color: white; 
+    margin-bottom: 0%;
+  }
+/*  #act{
+      margin: 20px;
+  }*/
+ #one{
+     font-size: 15px;
+ }
+ #two{
+     padding-left: 30px;
+    
+     
+ }
+ #six{
+     display: flex;
+     
+ }
+ #five{
+     text-align: center;
+ }
+ 
+ #three{
+     
+     padding-left: 20px;
+     font-size: 50px;
+ }
+ .size{
+    font-size: 25px;  
+    text-align: center;
+ }
+ .row{
+    box-sizing: border-box;
+  }
+  .para{
+      padding: 20px;
+  }
+  #keerthi{
+    display: flex;
+    background-color: lightgray;
+    margin: 5px;
+  }
+  .out{
+    padding: 8px;
+    background-color: lightsteelblue;
+  }
+  .in{
+   
+    padding: 70px;
+    margin: 1px;
+   
+  }
+  #train{
+    display: flex;
+    background-color: lightgray;
+    margin-top: 15px;
+  }
+  
+  .column {
+    float: left;
+    width: 20%;
+    padding: 0 5px;
+  }
+  
+  .row {margin: 0 -5px;}
+
+  .button{
+    width: 50%;
+    height: 45px;
+    font-size: 20px;
+    font-style: italic;
+    background-color: gray;
+    color: white;
+    border-radius: 15px;
+
+  }
+ .footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #444;
+    color: white;
+  }
+  
+  .fa {font-size:50px;}
+  #ab{
+      margin: 30px;
+      padding-left: 15%;
+  }
+  #four{
+      padding: 30px;
+  }
+  #p1{
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 10px;
+
+  }
+  #p2{
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 10px;
+  }
+  #p3{
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 10px;
+  }
+
+#whatsup{
+  position: fixed;
+  left: 0;
+    bottom: 0;
+ 
+}

@@ -1,0 +1,95 @@
+<html>
+    <head>
+       <title>Quient trainings</title>
+       <link rel="stylesheet" href="site.css">
+    </head>
+    <body>
+        <div class="header">
+            <img width="100" height="90" src="log.jpeg" >
+            <h1>Quient Trainings</h1>
+            <p>Get placed and build your future.</p>
+            <div id="one">
+                <p><em>Quient training is an enthusiastic group intended to train
+                students in colleges that are denied the privilege of Placement
+                training.<br>
+                A group of Enthusiasts now have a vision of training
+                students that don’t have access to placement training that can
+                help them get placed, and thereby build their future.</em> </p>
+            </div>
+          </div>
+        <nav>
+            <ul class="topnav">
+                <li><a href="site.html">Home</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About us </a></li>
+                <li><a href="index.php">Contact us</a></li>
+              </ul>
+        </nav>
+        
+
+<div class="row">
+  <div id="col">
+    <img class="photo" width="400" height="400" src="img1.jpg">
+    <img class="photo"width="400" height="400" src="img2.jpg">
+    <img class="photo" width="400" height="400" src="img3.jpg">
+    
+    
+  </div>
+  <div id="colu">
+    <img class="photo" width="400" height="400" src="img5.jpg">
+    <img class="photo" width="400" height="400" src="img6.jpg">
+    <img class="photo" width="400" height="400" src="img7.jpg">
+   
+    
+  </div>
+  <div id="colum">
+    <img class="photo" width="400" height="400" src="img9.jpg">
+    <img class="photo" width="400" height="400" src="img6.jpg">
+    <img class="photo" width="400" height="400" src="img5.jpg">
+   
+  </div>
+  <div id="column">
+    <img class="photo" width="400" height="400" src="img8.jpg">
+    <img class="photo" width="400" height="400" src="img7.jpg">
+    <img class="photo" width="400" height="400" src="img4.jpg">
+    
+  </div>
+</div>
+<button onclick="one()">1</button>
+<button onclick="two()">2</button>
+<button onclick="four()">4</button>
+<a href="https://api.whatsapp.com/send?phone=+91number"><img  id="whatsup" width="80" 
+  height="80" src="what.png" ></a>
+  <div class="footer">
+    <p>Copyright&copy; 2021 All rights reserved </p>
+  </div>
+<script>
+  var elements = document.getElementsByClassName("column");
+
+
+var i;
+
+
+function one() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "100%";
+  }
+}
+
+
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "50%";
+  }
+}
+
+
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.flex = "25%";
+  }
+}
+</script>
+</body>
+</html>
